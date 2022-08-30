@@ -10,11 +10,14 @@ int main()
     float A;
     float B;
     float X;
+    cout << "I will be solving the equation \nAx + B = 0 \nfor x" << endl;
     cout << "Please enter a value for A: ";
     cin >> A;
-    cout << "A=" << A << endl;
-    B = (A * 4) + 1;
-    cout << "And B=" << B << endl;
+    cout << "please enter a value for B: ";
+    cin >> B;
+    cout << A << "x + " << B << " = 0  for x..." << endl;
+    X = (B * -1) / A;
+    cout << "X = " << X;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
